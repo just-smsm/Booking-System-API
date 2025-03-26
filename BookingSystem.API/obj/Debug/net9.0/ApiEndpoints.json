@@ -1,0 +1,76 @@
+[
+  {
+    "ContainingType": "BookingSystem.API.Controllers.ReservationController",
+    "Method": "GetAllReservations",
+    "RelativePath": "api/Reservation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingSystem.API.Controllers.ReservationController",
+    "Method": "AddNewReservation",
+    "RelativePath": "api/Reservation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservationDto",
+        "Type": "BookingSystem.Core.DTOs.AddReservationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingSystem.API.Controllers.ReservationController",
+    "Method": "EditReservation",
+    "RelativePath": "api/Reservation",
+    "HttpMethod": "PATCH",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "reservationDto",
+        "Type": "BookingSystem.Core.DTOs.ReservationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingSystem.API.Controllers.ReservationController",
+    "Method": "GetReservationById",
+    "RelativePath": "api/Reservation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookingSystem.API.Controllers.ReservationController",
+    "Method": "DeleteReservation",
+    "RelativePath": "api/Reservation/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,223 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Booking System API",
+    "description": "API for managing reservations and trips.",
+    "contact": {
+      "name": "Support Team",
+      "url": "https://bookingsystem.com",
+      "email": "support@bookingsystem.com"
+    },
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Reservation": {
+      "get": {
+        "tags": [
+          "Reservation"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "Reservation"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddReservationDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddReservationDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/AddReservationDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "patch": {
+        "tags": [
+          "Reservation"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/ReservationDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Reservation/{id}": {
+      "get": {
+        "tags": [
+          "Reservation"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "Reservation"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "AddReservationDto": {
+        "required": [
+          "customerName",
+          "notes",
+          "reservationDate",
+          "reservedById",
+          "tripId"
+        ],
+        "type": "object",
+        "properties": {
+          "customerName": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "tripId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "reservedById": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "reservationDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "notes": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ReservationDto": {
+        "required": [
+          "customerName",
+          "id",
+          "notes",
+          "reservationDate",
+          "reservedById",
+          "tripId"
+        ],
+        "type": "object",
+        "properties": {
+          "id": {
+            "maximum": 2147483647,
+            "minimum": 1,
+            "type": "integer",
+            "format": "int32"
+          },
+          "customerName": {
+            "maxLength": 100,
+            "minLength": 0,
+            "type": "string"
+          },
+          "tripId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "reservedById": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "reservationDate": {
+            "type": "string",
+            "format": "date"
+          },
+          "notes": {
+            "maxLength": 500,
+            "minLength": 0,
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "Enter 'Bearer {token}' to authenticate",
+        "scheme": "Bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

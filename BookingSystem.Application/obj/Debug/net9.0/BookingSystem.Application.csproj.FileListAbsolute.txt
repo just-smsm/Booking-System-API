@@ -1,0 +1,17 @@
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\bin\Debug\net9.0\BookingSystem.Application.deps.json
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\bin\Debug\net9.0\BookingSystem.Application.runtimeconfig.json
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\bin\Debug\net9.0\BookingSystem.Application.dll
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\bin\Debug\net9.0\BookingSystem.Application.pdb
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\obj\Debug\net9.0\BookingSystem.Application.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\obj\Debug\net9.0\BookingSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\obj\Debug\net9.0\BookingSystem.Application.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\obj\Debug\net9.0\BookingSystem.Application.AssemblyInfo.cs
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\obj\Debug\net9.0\BookingSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\obj\Debug\net9.0\BookingSystem.Application.dll
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\obj\Debug\net9.0\refint\BookingSystem.Application.dll
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\obj\Debug\net9.0\BookingSystem.Application.pdb
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\obj\Debug\net9.0\BookingSystem.Application.genruntimeconfig.cache
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\obj\Debug\net9.0\ref\BookingSystem.Application.dll
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\bin\Debug\net9.0\BookingSystem.Core.dll
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\bin\Debug\net9.0\BookingSystem.Core.pdb
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Application\obj\Debug\net9.0\BookingS.5EAA46C0.Up2Date
