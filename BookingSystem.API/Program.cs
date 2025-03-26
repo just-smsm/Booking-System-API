@@ -99,7 +99,7 @@ if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Booking System API v1");
-        c.RoutePrefix = "swagger";  // 🔹 Change from "" to "swagger"
+        c.RoutePrefix = "";
     });
 }
 
