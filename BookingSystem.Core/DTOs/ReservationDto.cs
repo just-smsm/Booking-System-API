@@ -17,14 +17,14 @@ namespace BookingSystem.Core.DTOs
         // [Required(ErrorMessage = "Customer name is required.")] [http Patch] can edit on one property only
         [StringLength(100, ErrorMessage = "Customer name cannot exceed 100 characters.")]
         
-        public string CustomerName { get; set; }
+        public string? CustomerName { get; set; }
                 
         // [Required(ErrorMessage = "Reservation date is required.")] [http Patch] can edit on one property only
         [DataType(DataType.Date)]
-        public DateTime ReservationDate { get; set; }
+        public DateTime? ReservationDate { get; set; }
 
         // [Required(ErrorMessage = "Notes is required.")] [http Patch] can edit on one property only
         [StringLength(500, ErrorMessage = "Notes cannot exceed 500 characters.")]
-        public string Notes { get; set; }  
+        public string? Notes { get; set; }  
     }
 }

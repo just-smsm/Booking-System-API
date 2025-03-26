@@ -39,9 +39,9 @@ namespace BookingSystem.Application.CQRS.Handlers.Commands
             }
 
             // Update fields
-            existingReservation.CustomerName = request.reservationDto.CustomerName;
-            existingReservation.ReservationDate = request.reservationDto.ReservationDate;
-            existingReservation.Notes = request.reservationDto.Notes;
+            existingReservation.CustomerName = request.reservationDto.CustomerName ?? existingReservation.CustomerName;
+            existingReservation.ReservationDate = request.reservationDto.ReservationDate ?? existingReservation.ReservationDate;
+            existingReservation.Notes = request.reservationDto.Notes ?? existingReservation.Notes;
 
             // Save changes
             await _unitOfWork.Reservations.UpdateAsync(existingReservation);
