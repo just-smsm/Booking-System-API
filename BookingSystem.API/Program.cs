@@ -14,30 +14,30 @@ using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// ✅ Add DbContext
+// Add DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-// ✅ Add Identity
+// Add Identity
 builder.Services.AddIdentity<AppUser, IdentityRole>()
     .AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
 
-// ✅ Add repositories and Unit of Work
+// Add repositories and Unit of Work
 builder.Services.AddScoped<IReservationRepository, ReservationRepository>();
 builder.Services.AddScoped<ITripRepository, TripRepository>();
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
-// ✅ Add AutoMapper for DTO mappings
+// Add AutoMapper for DTO mappings
 builder.Services.AddAutoMapper(typeof(MappingProfile));
 
-// ✅ Add MediatR for CQRS
+// Add MediatR for CQRS
 builder.Services.AddMediatR(typeof(GetAllReservationsHandler).Assembly);
 
-// ✅ Add Controllers
+// Add Controllers
 builder.Services.AddControllers();
 
-// ✅ Register Swagger for API documentation
+// Register Swagger for API documentation
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(options =>
 {
@@ -54,7 +54,7 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 
-    // 🔹 Enable JWT Authentication support in Swagger (if using Auth)
+    //  Enable JWT Authentication support in Swagger 
     options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Name = "Authorization",
@@ -81,7 +81,7 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 
-// ✅ Add CORS
+// Add CORS
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowAll",
@@ -92,7 +92,7 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-// ✅ Configure the middleware pipeline
+// Configure the middleware pipeline
 if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
 {
     app.UseSwagger();
@@ -108,7 +108,7 @@ app.UseCors("AllowAll");
 app.UseAuthorization();
 app.MapControllers();
 
-// ✅ Seed Database on startup
+// Seed Database on startup
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;

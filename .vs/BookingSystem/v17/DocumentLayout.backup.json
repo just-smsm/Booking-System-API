@@ -3,12 +3,60 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{52C3CB60-D9AD-4AD6-9FC8-5DB8C44715C3}|BookingSystem.API\\BookingSystem.API.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.api\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52C3CB60-D9AD-4AD6-9FC8-5DB8C44715C3}|BookingSystem.API\\BookingSystem.API.csproj|solutionrelative:bookingsystem.api\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\interfaces\\itriprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\interfaces\\itriprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F67A2F1-EB04-460A-91D2-EC2B08E5A30E}|BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.infrastructure\\repositories\\triprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F67A2F1-EB04-460A-91D2-EC2B08E5A30E}|BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj|solutionrelative:bookingsystem.infrastructure\\repositories\\triprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\dtos\\reservationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\dtos\\reservationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\dtos\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\dtos\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\dtos\\getreservationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\dtos\\getreservationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\dtos\\addreservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\dtos\\addreservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\queries\\getallreservationsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\queries\\getallreservationsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\handlers\\commands\\updatereservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\handlers\\commands\\updatereservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\handlers\\commands\\deletereservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\handlers\\commands\\deletereservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\handlers\\commands\\createreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\handlers\\commands\\createreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\commands\\updatereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\commands\\updatereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\commands\\deletereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\commands\\deletereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\commands\\createreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\commands\\createreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{52C3CB60-D9AD-4AD6-9FC8-5DB8C44715C3}|BookingSystem.API\\BookingSystem.API.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.api\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52C3CB60-D9AD-4AD6-9FC8-5DB8C44715C3}|BookingSystem.API\\BookingSystem.API.csproj|solutionrelative:bookingsystem.api\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,10 +67,6 @@
       "RelativeMoniker": "D:0:0:{7F67A2F1-EB04-460A-91D2-EC2B08E5A30E}|BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj|solutionrelative:bookingsystem.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\interfaces\\itriprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\interfaces\\itriprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\interfaces\\ireservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -31,32 +75,8 @@
       "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\interfaces\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\handlers\\commands\\createreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\handlers\\commands\\createreservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\dtos\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\dtos\\reservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\queries\\getallreservationsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\queries\\getallreservationsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\commands\\createreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\commands\\createreservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\queries\\getreservationbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\queries\\getreservationbyidquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\commands\\deletereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\commands\\deletereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\commands\\updatereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\commands\\updatereservationcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52C3CB60-D9AD-4AD6-9FC8-5DB8C44715C3}|BookingSystem.API\\BookingSystem.API.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -83,28 +103,12 @@
       "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\entities\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\dtos\\getreservationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\dtos\\getreservationresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\dtos\\reservationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\dtos\\reservationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\handlers\\queries\\getreservationbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\handlers\\queries\\getreservationbyidhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\dtos\\addreservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\dtos\\addreservationdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.application\\cqrs\\handlers\\commands\\deletereservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2FAD170-02DD-4664-9FF8-133AA61A08CF}|BookingSystem.Application\\BookingSystem.Application.csproj|solutionrelative:bookingsystem.application\\cqrs\\handlers\\commands\\deletereservationhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Infrastructure\\Migrations\\20250325203423_Add_ModelBase_Class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,10 +121,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.core\\entities\\modelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A4B977E7-22B5-439B-830A-C23560D30637}|BookingSystem.Core\\BookingSystem.Core.csproj|solutionrelative:bookingsystem.core\\entities\\modelbase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7F67A2F1-EB04-460A-91D2-EC2B08E5A30E}|BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.infrastructure\\repositories\\triprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F67A2F1-EB04-460A-91D2-EC2B08E5A30E}|BookingSystem.Infrastructure\\BookingSystem.Infrastructure.csproj|solutionrelative:bookingsystem.infrastructure\\repositories\\triprepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{52C3CB60-D9AD-4AD6-9FC8-5DB8C44715C3}|BookingSystem.API\\BookingSystem.API.csproj|c:\\users\\dell\\source\\repos\\bookingsystem\\bookingsystem.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -154,128 +154,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ITripRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\ITripRepository.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Core\\Interfaces\\ITripRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\ITripRepository.cs",
-              "RelativeToolTip": "BookingSystem.Core\\Interfaces\\ITripRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T20:16:25.977Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Core\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "BookingSystem.Core\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:16:01.713Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CreateReservationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Commands\\CreateReservationHandler.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Handlers\\Commands\\CreateReservationHandler.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Commands\\CreateReservationHandler.cs",
-              "RelativeToolTip": "BookingSystem.Application\\CQRS\\Handlers\\Commands\\CreateReservationHandler.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAADUAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:52:37.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Infrastructure\\Repositories\\GenericRepository.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Infrastructure\\Repositories\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Infrastructure\\Repositories\\GenericRepository.cs",
-              "RelativeToolTip": "BookingSystem.Infrastructure\\Repositories\\GenericRepository.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAgwEQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T20:05:59.075Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.API\\Controllers\\ReservationController.cs",
-              "RelativeDocumentMoniker": "BookingSystem.API\\Controllers\\ReservationController.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.API\\Controllers\\ReservationController.cs*",
-              "RelativeToolTip": "BookingSystem.API\\Controllers\\ReservationController.cs*",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAAAEoAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:15:57.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UpdateReservationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Commands\\UpdateReservationHandler.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Handlers\\Commands\\UpdateReservationHandler.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Commands\\UpdateReservationHandler.cs",
-              "RelativeToolTip": "BookingSystem.Application\\CQRS\\Handlers\\Commands\\UpdateReservationHandler.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAiwCMAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T17:01:50.116Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IReservationRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\IReservationRepository.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Core\\Interfaces\\IReservationRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\IReservationRepository.cs",
-              "RelativeToolTip": "BookingSystem.Core\\Interfaces\\IReservationRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:14:09.152Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\IGenericRepository.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Core\\Interfaces\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\IGenericRepository.cs",
-              "RelativeToolTip": "BookingSystem.Core\\Interfaces\\IGenericRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T20:04:59.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReservationDto.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\ReservationDto.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Core\\DTOs\\ReservationDto.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\ReservationDto.cs",
-              "RelativeToolTip": "BookingSystem.Core\\DTOs\\ReservationDto.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAAABkAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T17:19:28.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
               "Title": "GetAllReservationsQuery.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Queries\\GetAllReservationsQuery.cs",
               "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Queries\\GetAllReservationsQuery.cs",
@@ -288,46 +171,124 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "CreateReservationCommand.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Commands\\CreateReservationCommand.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Commands\\CreateReservationCommand.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Commands\\CreateReservationCommand.cs",
-              "RelativeToolTip": "BookingSystem.Application\\CQRS\\Commands\\CreateReservationCommand.cs",
+              "DocumentIndex": 5,
+              "Title": "AddReservationDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\AddReservationDto.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Core\\DTOs\\AddReservationDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\AddReservationDto.cs",
+              "RelativeToolTip": "BookingSystem.Core\\DTOs\\AddReservationDto.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAuwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:51:36.961Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetReservationResponseDTO.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\GetReservationResponseDTO.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Core\\DTOs\\GetReservationResponseDTO.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\GetReservationResponseDTO.cs",
+              "RelativeToolTip": "BookingSystem.Core\\DTOs\\GetReservationResponseDTO.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAkwA8AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T21:07:32.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\ReservationDto.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Core\\DTOs\\ReservationDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\ReservationDto.cs",
+              "RelativeToolTip": "BookingSystem.Core\\DTOs\\ReservationDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:19:28.537Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ReservationResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\ReservationResultDto.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Core\\DTOs\\ReservationResultDto.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\ReservationResultDto.cs",
+              "RelativeToolTip": "BookingSystem.Core\\DTOs\\ReservationResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:41:53.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TripRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Infrastructure\\Repositories\\TripRepository.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Infrastructure\\Repositories\\TripRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Infrastructure\\Repositories\\TripRepository.cs",
+              "RelativeToolTip": "BookingSystem.Infrastructure\\Repositories\\TripRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:16:46.834Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ITripRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\ITripRepository.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Core\\Interfaces\\ITripRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\ITripRepository.cs",
+              "RelativeToolTip": "BookingSystem.Core\\Interfaces\\ITripRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:47:08.902Z",
+              "WhenOpened": "2025-03-25T20:16:25.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GetReservationByIdQuery.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Queries\\GetReservationByIdQuery.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Queries\\GetReservationByIdQuery.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Queries\\GetReservationByIdQuery.cs",
-              "RelativeToolTip": "BookingSystem.Application\\CQRS\\Queries\\GetReservationByIdQuery.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "UpdateReservationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Commands\\UpdateReservationHandler.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Handlers\\Commands\\UpdateReservationHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Commands\\UpdateReservationHandler.cs",
+              "RelativeToolTip": "BookingSystem.Application\\CQRS\\Handlers\\Commands\\UpdateReservationHandler.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAiwCMAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T15:30:48.134Z",
+              "WhenOpened": "2025-03-25T17:01:50.116Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DeleteReservationCommand.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Commands\\DeleteReservationCommand.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Commands\\DeleteReservationCommand.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Commands\\DeleteReservationCommand.cs",
-              "RelativeToolTip": "BookingSystem.Application\\CQRS\\Commands\\DeleteReservationCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "DeleteReservationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Commands\\DeleteReservationHandler.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Handlers\\Commands\\DeleteReservationHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Commands\\DeleteReservationHandler.cs",
+              "RelativeToolTip": "BookingSystem.Application\\CQRS\\Handlers\\Commands\\DeleteReservationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T17:11:26.458Z",
+              "WhenOpened": "2025-03-25T17:12:48.365Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
+              "Title": "CreateReservationHandler.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Commands\\CreateReservationHandler.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Handlers\\Commands\\CreateReservationHandler.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Commands\\CreateReservationHandler.cs",
+              "RelativeToolTip": "BookingSystem.Application\\CQRS\\Handlers\\Commands\\CreateReservationHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:52:37.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UpdateReservationCommand.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Commands\\UpdateReservationCommand.cs",
               "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Commands\\UpdateReservationCommand.cs",
@@ -340,7 +301,111 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DeleteReservationCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Commands\\DeleteReservationCommand.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Commands\\DeleteReservationCommand.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Commands\\DeleteReservationCommand.cs",
+              "RelativeToolTip": "BookingSystem.Application\\CQRS\\Commands\\DeleteReservationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T17:11:26.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CreateReservationCommand.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Commands\\CreateReservationCommand.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Commands\\CreateReservationCommand.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Commands\\CreateReservationCommand.cs",
+              "RelativeToolTip": "BookingSystem.Application\\CQRS\\Commands\\CreateReservationCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:47:08.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.API\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "BookingSystem.API\\Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.API\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "BookingSystem.API\\Controllers\\ReservationController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T18:15:57.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\IReservationRepository.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Core\\Interfaces\\IReservationRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\IReservationRepository.cs",
+              "RelativeToolTip": "BookingSystem.Core\\Interfaces\\IReservationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:14:09.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "BookingSystem.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAgwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:05:59.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Core\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "BookingSystem.Core\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:16:01.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Core\\Interfaces\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Interfaces\\IGenericRepository.cs",
+              "RelativeToolTip": "BookingSystem.Core\\Interfaces\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T20:04:59.125Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetReservationByIdQuery.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Queries\\GetReservationByIdQuery.cs",
+              "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Queries\\GetReservationByIdQuery.cs",
+              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Queries\\GetReservationByIdQuery.cs",
+              "RelativeToolTip": "BookingSystem.Application\\CQRS\\Queries\\GetReservationByIdQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T15:30:48.134Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.API\\appsettings.json",
               "RelativeDocumentMoniker": "BookingSystem.API\\appsettings.json",
@@ -353,7 +418,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 20,
               "Title": "GetAllReservationsHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Queries\\GetAllReservationsHandler.cs",
               "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Handlers\\Queries\\GetAllReservationsHandler.cs",
@@ -365,7 +430,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "DbInitializer.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Infrastructure\\Data\\Seeding\\DbInitializer.cs",
               "RelativeDocumentMoniker": "BookingSystem.Infrastructure\\Data\\Seeding\\DbInitializer.cs",
@@ -377,7 +442,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 23,
               "Title": "Trip.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Entities\\Trip.cs",
               "RelativeDocumentMoniker": "BookingSystem.Core\\Entities\\Trip.cs",
@@ -389,7 +454,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Reservation.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Entities\\Reservation.cs",
               "RelativeDocumentMoniker": "BookingSystem.Core\\Entities\\Reservation.cs",
@@ -401,7 +466,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Entities\\AppUser.cs",
               "RelativeDocumentMoniker": "BookingSystem.Core\\Entities\\AppUser.cs",
@@ -413,19 +478,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "GetReservationResponseDTO.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\GetReservationResponseDTO.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Core\\DTOs\\GetReservationResponseDTO.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\GetReservationResponseDTO.cs",
-              "RelativeToolTip": "BookingSystem.Core\\DTOs\\GetReservationResponseDTO.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAkwAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T21:07:32.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "GetReservationByIdHandler.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Queries\\GetReservationByIdHandler.cs",
               "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Handlers\\Queries\\GetReservationByIdHandler.cs",
@@ -437,19 +490,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ReservationResultDto.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\ReservationResultDto.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Core\\DTOs\\ReservationResultDto.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\ReservationResultDto.cs",
-              "RelativeToolTip": "BookingSystem.Core\\DTOs\\ReservationResultDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T20:41:53.988Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Mapping\\MappingProfile.cs",
@@ -461,31 +502,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "AddReservationDto.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\AddReservationDto.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Core\\DTOs\\AddReservationDto.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\DTOs\\AddReservationDto.cs",
-              "RelativeToolTip": "BookingSystem.Core\\DTOs\\AddReservationDto.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T18:51:36.961Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "DeleteReservationHandler.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Commands\\DeleteReservationHandler.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Application\\CQRS\\Handlers\\Commands\\DeleteReservationHandler.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Application\\CQRS\\Handlers\\Commands\\DeleteReservationHandler.cs",
-              "RelativeToolTip": "BookingSystem.Application\\CQRS\\Handlers\\Commands\\DeleteReservationHandler.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAawCAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T17:12:48.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "20250325203423_Add_ModelBase_Class.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Infrastructure\\Migrations\\20250325203423_Add_ModelBase_Class.cs",
               "RelativeDocumentMoniker": "BookingSystem.Infrastructure\\Migrations\\20250325203423_Add_ModelBase_Class.cs",
@@ -497,7 +514,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "BookingSystem.Infrastructure\\Data\\AppDbContext.cs",
@@ -509,7 +526,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "ModelBase.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Core\\Entities\\ModelBase.cs",
               "RelativeDocumentMoniker": "BookingSystem.Core\\Entities\\ModelBase.cs",
@@ -518,18 +535,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-25T20:12:07.42Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "TripRepository.cs",
-              "DocumentMoniker": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Infrastructure\\Repositories\\TripRepository.cs",
-              "RelativeDocumentMoniker": "BookingSystem.Infrastructure\\Repositories\\TripRepository.cs",
-              "ToolTip": "C:\\Users\\DELL\\source\\repos\\BookingSystem\\BookingSystem.Infrastructure\\Repositories\\TripRepository.cs",
-              "RelativeToolTip": "BookingSystem.Infrastructure\\Repositories\\TripRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T20:16:46.834Z"
             },
             {
               "$type": "Document",
