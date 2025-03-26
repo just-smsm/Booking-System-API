@@ -15,6 +15,7 @@ namespace BookingSystem.Application.CQRS.Handlers.Commands
         private readonly IMapper _mapper;
         private readonly IUnitOfWork _unitOfWork;
         private readonly UserManager<AppUser> _userManager;
+
         public UpdateReservationHandler(IMapper mapper, IUnitOfWork unitOfWork, UserManager<AppUser> userManager)
         {
             this._mapper = mapper;
@@ -28,36 +29,25 @@ namespace BookingSystem.Application.CQRS.Handlers.Commands
             var existingReservation = await _unitOfWork.Reservations.GetByIdAsync(request.reservationDto.Id);
             if (existingReservation == null)
             {
-                return false; // ❌ Reservation not found
+                return false; // Reservation not found
             }
 
-            // ✅ Check if TripId exists
-            var tripExists = await _unitOfWork.Trip.GetByIdAsync(request.reservationDto.TripId);
-            if (tripExists==null)
+            // Validate reservation date (Ensure it’s not in the past)
+            if (request.reservationDto.ReservationDate < DateTime.UtcNow)
             {
-                return false; // ❌ Trip does not exist
+                return false; // Invalid date
             }
 
-            // ✅ Check if User exists
-            var userExists = await _userManager.FindByIdAsync(request.reservationDto.ReservedById.ToString());
-            if (userExists == null)
-            {
-                return false; // ❌ User does not exist
-            }
-
-            // ✅ Update fields
+            // Update fields
             existingReservation.CustomerName = request.reservationDto.CustomerName;
-            existingReservation.TripId = request.reservationDto.TripId;
-            existingReservation.ReservedById = request.reservationDto.ReservedById;
             existingReservation.ReservationDate = request.reservationDto.ReservationDate;
             existingReservation.Notes = request.reservationDto.Notes;
 
-            // ✅ Save changes
+            // Save changes
             await _unitOfWork.Reservations.UpdateAsync(existingReservation);
             await _unitOfWork.SaveChangesAsync();
 
-            return true; // ✅ Successfully updated
+            return true; // Successfully updated
         }
-
     }
 }

@@ -26,27 +26,27 @@ namespace BookingSystem.Application.CQRS.Handlers.Commands
 
         public async Task<ReservationResultDto> Handle(CreateReservationCommand request, CancellationToken cancellationToken)
         {
-            // ✅ Check if the user exists
+            //  Check if the user exists
             var user = await _userManager.FindByIdAsync(request.reservationDto.ReservedById);
             if (user == null)
             {
                 return new ReservationResultDto { Success = false, ErrorMessage = "User not found." };
             }
 
-            // ✅ Check if the trip exists
+            //  Check if the trip exists
             var trip = await _unitOfWork.Trip.GetByIdAsync(request.reservationDto.TripId);
             if (trip == null)
             {
                 return new ReservationResultDto { Success = false, ErrorMessage = "Trip not found." };
             }
 
-            // ✅ Validate Reservation Date
+            //  Validate Reservation Date
             if (request.reservationDto.ReservationDate < DateTime.UtcNow)
             {
                 return new ReservationResultDto { Success = false, ErrorMessage = "Reservation date cannot be in the past." };
             }
 
-            // ✅ Correct mapping (use DTO, not request)
+            // mapping (use DTO, not request)
             var reservation = _mapper.Map<Reservation>(request.reservationDto);
             reservation.CreatedAt = DateTime.UtcNow; // Automatically set creation time
 

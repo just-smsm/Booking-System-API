@@ -22,13 +22,13 @@ namespace BookingSystem.Application.CQRS.Handlers.Commands
 
             if (reservation == null)
             {
-                return false; // ❌ Reservation not found, return false instead of throwing an exception
+                return false; // Reservation not found, return false instead of throwing an exception
             }
 
             await _unitOfWork.Reservations.DeleteAsync(reservation.Id);
             await _unitOfWork.SaveChangesAsync();
 
-            return true; // ✅ Successfully deleted
+            return true; // Successfully deleted
         }
 
     }

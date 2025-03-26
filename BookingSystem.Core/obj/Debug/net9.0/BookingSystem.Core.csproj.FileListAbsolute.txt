@@ -12,3 +12,4 @@ C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Core\obj\Debug\net9.0\ref
 C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Core\obj\Debug\net9.0\BookingSystem.Core.pdb
 C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Core\obj\Debug\net9.0\BookingSystem.Core.genruntimeconfig.cache
 C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Core\obj\Debug\net9.0\ref\BookingSystem.Core.dll
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.Core\obj\Debug\net9.0\BookingSystem.Core.sourcelink.json

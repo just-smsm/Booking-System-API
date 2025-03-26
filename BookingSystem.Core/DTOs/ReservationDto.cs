@@ -13,23 +13,18 @@ namespace BookingSystem.Core.DTOs
         [Required(ErrorMessage = "Id is required.")]
         [Range(1, int.MaxValue, ErrorMessage = "Id must be a positive integer.")]
         public int Id { get; set; }
-        
-        [Required(ErrorMessage = "Customer name is required.")]
+
+        // [Required(ErrorMessage = "Customer name is required.")] [http Patch] can edit on one property only
         [StringLength(100, ErrorMessage = "Customer name cannot exceed 100 characters.")]
         
         public string CustomerName { get; set; }
-        [Required(ErrorMessage = "Trip ID is required.")]
-        public int TripId { get; set; }
-        
-        [Required(ErrorMessage = "ReservedById is required.")]
-        public string ReservedById { get; set; }
-        
-        [Required(ErrorMessage = "Reservation date is required.")]
+                
+        // [Required(ErrorMessage = "Reservation date is required.")] [http Patch] can edit on one property only
         [DataType(DataType.Date)]
         public DateTime ReservationDate { get; set; }
-       
-        [Required(ErrorMessage = "Notes is required.")]
+
+        // [Required(ErrorMessage = "Notes is required.")] [http Patch] can edit on one property only
         [StringLength(500, ErrorMessage = "Notes cannot exceed 500 characters.")]
-        public string Notes { get; set; }  // Nullable for optional notes
+        public string Notes { get; set; }  
     }
 }

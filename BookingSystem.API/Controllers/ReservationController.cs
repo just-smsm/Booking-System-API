@@ -65,14 +65,14 @@ namespace BookingSystem.API.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return BadRequest(ModelState); // ❌ 400 Bad Request (Invalid input)
+                return BadRequest(ModelState); //  400 Bad Request (Invalid input)
             }
 
             var reservationUpdated = await _mediator.Send(new UpdateReservationCommand(reservationDto));
 
             if (!reservationUpdated)
             {
-                return NotFound(new { message = "Invalid Reservation ID, Trip ID, or User ID" }); //  404 Not Found
+                return NotFound(new { message = "Invalid Trip ID or ReservationDate" }); //  404 Not Found
             }
 
             return Ok(new { message = "Reservation updated successfully" }); //  200 OK

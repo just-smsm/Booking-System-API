@@ -165,12 +165,7 @@
       },
       "ReservationDto": {
         "required": [
-          "customerName",
-          "id",
-          "notes",
-          "reservationDate",
-          "reservedById",
-          "tripId"
+          "id"
         ],
         "type": "object",
         "properties": {
@@ -183,15 +178,8 @@
           "customerName": {
             "maxLength": 100,
             "minLength": 0,
-            "type": "string"
-          },
-          "tripId": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "reservedById": {
-            "minLength": 1,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           },
           "reservationDate": {
             "type": "string",
@@ -200,7 +188,8 @@
           "notes": {
             "maxLength": 500,
             "minLength": 0,
-            "type": "string"
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

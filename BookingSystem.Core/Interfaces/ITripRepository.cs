@@ -9,5 +9,6 @@ namespace BookingSystem.Core.Interfaces
 {
     public interface ITripRepository : IGenericRepository<Trip>
     {
+        
     }
 }

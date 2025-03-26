@@ -180,3 +180,4 @@ C:\Users\DELL\source\repos\BookingSystem\BookingSystem.API\bin\Debug\net9.0\Book
 C:\Users\DELL\source\repos\BookingSystem\BookingSystem.API\bin\Debug\net9.0\BookingSystem.Infrastructure.dll
 C:\Users\DELL\source\repos\BookingSystem\BookingSystem.API\bin\Debug\net9.0\BookingSystem.Infrastructure.pdb
 C:\Users\DELL\source\repos\BookingSystem\BookingSystem.API\obj\Debug\net9.0\BookingSystem.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DELL\source\repos\BookingSystem\BookingSystem.API\obj\Debug\net9.0\BookingSystem.API.sourcelink.json
