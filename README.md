@@ -1,6 +1,8 @@
 # 🏨 Booking System API
 A multi-user booking system built with ASP.NET Core 9
 
+---
+
 ## 🚀 How to Run the Project
 
 ### 1️⃣ Clone the Repository
